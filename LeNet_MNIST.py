@@ -2,7 +2,8 @@ import torchvision.datasets as dset
 import torch
 import torch.nn as nn
 import torchvision.transforms as transforms
-from LeNet import LeNet_SBP, LeNet, accuracy
+from LeNet import LeNet_SBP, LeNet
+from SBP_utils import accuracy
 import torch.optim as optim
 from torch.autograd import Variable
 import os
